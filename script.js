@@ -38,7 +38,7 @@ function createBubbles() {
 // Initialize bubbles and refresh periodically
 document.addEventListener("DOMContentLoaded", () => {
   createBubbles();
-  setInterval(createBubbles, 15000); // Refresh every 15 seconds
+  setInterval(createBubbles, 300000); // Refresh every 15 seconds
 });
 
 // Navbar toggle for mobile
